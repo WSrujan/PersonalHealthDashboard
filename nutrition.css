@@ -1,0 +1,45 @@
+/* Nutrition Label Styles */
+
+/* Container for the entire nutrition label */
+#nutrition-label {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title for the nutrition label */
+.product-name {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Image style */
+.product-image {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Serving size input style */
+.serving-size-input {
+  width: 50px;
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+/* Serving unit style */
+.serving-unit {
+  font-size: 12px;
+  color: #888;
+}
+
+/* Table styles */
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}

@@ -1,0 +1,138 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+  /* outline: dotted 3px red; */
+}
+
+/* utility css */
+.flex {
+  display: flex;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.items-center {
+  align-items: center;
+}
+.flow-column {
+  flex-flow: column;
+}
+.flow-row {
+  flex-flow: row;
+}
+
+/* Body css */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #74a5e1;
+}
+
+/* Container */
+.container {
+  color: #000000;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Header */
+.header {
+  color: white;
+  background-color: #003366;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: solid black 3px;
+}
+.header .image {
+  height: 40px;
+  width: 40px;
+}
+.header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Main Content */
+.main-content {
+  background-color: #f5f5f5;
+}
+
+/* Left Side */
+.left-side {
+  background-color: #e6f2ff;
+  width: 100%;
+  padding: 20px;
+  border: solid black 3px;
+}
+.left-side h2 {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.left-side .calculater {
+  border: solid black 3px;
+}
+.left-side .height,
+.left-side .weight {
+  padding: 20px;
+}
+.left-side .scale {
+  padding: 20px;
+  border: solid black 3px;
+}
+
+/* Right Side */
+.right-side {
+  color: #424242;
+  width: 100%;
+  border: solid black 3px;
+  padding: 20px;
+}
+
+/* Top Search Container */
+.top .search-container button,
+.top .search-container {
+  margin: 5px;
+}
+
+/* BMI Form */
+#bmi-form {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Result */
+#result {
+  padding: 20px;
+}
+
+/* Search */
+#search {
+  gap: 10px;
+  cursor: pointer;
+}
+
+/* Search Icon */
+.search-icon {
+  height: 20px;
+  width: 20px;
+}
+
+/* H2 */
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Button Color */
+#btncolor {
+  background-color: #4caf50;
+}
